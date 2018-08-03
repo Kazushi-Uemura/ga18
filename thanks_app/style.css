@@ -1,0 +1,235 @@
+@charset "UTF-8";
+
+/* generic  */
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body {
+  font-size: 14px;
+  line-height: 1.9;
+  padding-top: 67px;
+  color: #444;
+}
+ul {
+  list-style: none;
+}
+.title {
+  font-size: 20px;
+  text-align: center;
+}
+
+
+/* header  */
+
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+header nav {
+  overflow: hidden;
+}
+header nav ul {
+  overflow: hidden;
+  float: right;
+  padding: 20px 36px;
+}
+header nav ul li {
+  float: left;
+  margin-left: 20px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+
+/* top  */
+
+.con_top {
+  width: 1024px;
+  height: 454px;
+  margin: 30px auto 0;
+  background: url(images/img_main.jpg) no-repeat;
+  color: #fff;
+  text-align: center;
+}
+.con_top h1 {
+  padding-top: 180px;
+  font-size: 40px;
+  font-family: 'Pacifico', cursive;
+
+}
+.con_top p {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+
+/* vision  */
+
+.con_vision {
+  width: 1024px;
+  margin: 70px auto 0;
+}
+.con_vision h2 {
+  text-align: center;
+}
+.con_vision p {
+  margin-top: 30px;
+}
+
+
+/* message  */
+
+.con_message {
+  margin-top: 70px;
+}
+.con_message .list_message li {
+  overflow: hidden;
+  background: #f7f7f7;
+}
+.con_message .list_message li .img {
+  width: 50%;
+  float: left;
+}
+.con_message .list_message li .detail {
+  width: 50%;
+  float: left;
+}
+.con_message .list_message li .detail {
+  width: 50%;
+  float: left;
+}
+.con_message .list_message li .detail .inner {
+  padding: 110px 15% 0;
+}
+.con_message .list_message li .detail .inner p {
+  margin-top: 30px;
+}
+.con_message .list_message li .img {
+  overflow: hidden;
+}
+.con_message .list_message li .img img {
+  width: 100%;
+  min-width: 720px;
+}
+.con_message .list_message li:nth-child(even) .img {
+  float: right;
+}
+
+
+/* service  */
+
+.con_service {
+  width: 1024px;
+  margin: 70px auto 0;
+}
+.con_service ul {
+  overflow: hidden;
+}
+.con_service ul li {
+  width: 300px;
+  margin-left: 62px;
+  float: left;
+}
+.con_service ul li:first-child {
+  margin-left: 0;
+}
+
+.con_service ul li .img {
+  margin-top: 20px;
+}
+.con_service ul li img {
+  width: 100%;
+  border-radius: 50%;
+}
+.con_service ul li p {
+  margin-top: 20px;
+}
+
+
+/* story */
+
+.con_story {
+  margin-top: 110px;
+  height: 420px;
+  background: url(images/img_background.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+.con_story ul {
+  width: 1024px;
+  overflow: hidden;
+  margin: auto;
+  padding-top: 90px;
+}
+.con_story ul li {
+  width: 490px;
+  float: right;
+}
+.con_story ul li:first-child {
+  float: left;
+}
+.con_story ul li p {
+  margin-top: 20px;
+}
+
+
+/* profile */
+
+.con_profile {
+  width: 1024px;
+  margin: 110px auto 0;
+  overflow: hidden;
+}
+.con_profile dl {
+  width: 450px;
+  float: left;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-align-items: middle;
+  align-items: middle;
+  border-top: 1px solid #ccc;
+}
+.con_profile dl dt,
+.con_profile dl dd {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-top: 0;
+}
+.con_profile dl dt {
+  width: 119px;
+  background: #f0f0f0;
+  font-weight: bold;
+  border-right: 0;
+}
+.con_profile dl dd {
+  width: 288px;
+}
+.con_profile .map {
+  float: right;
+}
+
+
+/* footer */
+
+footer {
+  margin: 170px 0 75px;
+}
+.footer_copyright {
+  text-align: center;
+  font-size: 12px;
+}
